@@ -1,0 +1,59 @@
+.imagem{
+ height: 700px;
+ width: 700px;
+ position: relative;
+left: 0%;
+}
+
+#menu{
+ background-color: white;
+}
+.botao{
+    background-color: white
+   
+    
+   
+}
+:root {
+ --glow-color: #000000;
+ --black: #1a1e23;
+ --shadow: #ffffff50;
+}
+:after{
+
+}
+:before{
+    box-sizing: border-box;
+
+} 
+html, 
+body {
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+
+}
+body{
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: var(--glow-color);
+}
+.boton{
+    position: relative;
+    cursor: pointer;
+    padding: 0.35em 1.2em;
+    border: 0.15em solid var(--shadow);
+    border-radius: 0.8em;
+    background: none;
+    perspective: 2em;
+    font-family:sans-serif;
+    font-size: 2.5em;
+    font-weight: 600;
+    letter-spacing: 0.2em;
+    box-shadow: inset 0 0 0.5em; 
+     color:aliceblue
+    
+   
+}
